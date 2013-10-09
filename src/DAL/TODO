@@ -1,0 +1,4 @@
+DAL
+Call from the BL to DAL
+Change the sum to generic (pumps/cashier...) with enum
+create DAL controller (based on the existing Interfaces)

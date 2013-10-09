@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 17.0-b16 (Sun Microsystems Inc.)
+Export-Package: org.springframework.instrument;version="3.0.5.RELEASE"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.5.RELEASE
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Instrument
+Bundle-ManifestVersion: 2
+Premain-Class: org.springframework.instrument.InstrumentationSavingAge
+ nt
+Bundle-SymbolicName: org.springframework.instrument
+Bundle-Creator: bamboo
+Implementation-Title: org.springframework.instrument
+Implementation-Version: 3.0.5.RELEASE
+

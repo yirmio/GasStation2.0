@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://www.webservicex.net/CreditCard.asmx?WSDL" uri="src/conf/xml-resources/web-service-references/CreditCard_1/wsdl/www.webservicex.net/CreditCard.asmx.wsdl"/>
+    <system systemId="http://www.webservicex.net/translateservice.asmx?wsdl" uri="src/conf/xml-resources/web-service-references/translateservice/wsdl/www.webservicex.net/translateservice.asmx.wsdl"/>
+    <system systemId="http://www.restfulwebservices.net/wcf/geoipservice.svc?wsdl" uri="src/conf/xml-resources/web-service-references/GeoIPService/wsdl/www.restfulwebservices.net/wcf/geoipservice.svc.wsdl"/>
+    <system systemId="http://www.restfulwebservices.net/wcf/GeoIPService.svc?xsd=xsd0" uri="src/conf/xml-resources/web-service-references/GeoIPService/wsdl/www.restfulwebservices.net/wcf/GeoIPService.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://www.restfulwebservices.net/wcf/GeoIPService.svc?xsd=xsd3" uri="src/conf/xml-resources/web-service-references/GeoIPService/wsdl/www.restfulwebservices.net/wcf/GeoIPService.svc.xsd_xsd3.xsd"/>
+    <system systemId="http://www.restfulwebservices.net/wcf/GeoIPService.svc?xsd=xsd1" uri="src/conf/xml-resources/web-service-references/GeoIPService/wsdl/www.restfulwebservices.net/wcf/GeoIPService.svc.xsd_xsd1.xsd"/>
+    <system systemId="http://www.restfulwebservices.net/wcf/GeoIPService.svc?xsd=xsd2" uri="src/conf/xml-resources/web-service-references/GeoIPService/wsdl/www.restfulwebservices.net/wcf/GeoIPService.svc.xsd_xsd2.xsd"/>
+</catalog>

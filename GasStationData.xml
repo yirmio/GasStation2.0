@@ -1,0 +1,31 @@
+<GasStation name="Shlomos GasStation" numOfPumps="4" pricePerLiter="7.82">
+	<MainFuelPool maxCapacity="500" currentCapacity="500" />
+	<CoffeeHouse numOfCashier="4" />
+	<Cars>
+		<Car id="111">
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="34" />
+			<WantsFuel numOfLiters="350" pumpNum="3"/>
+		</Car>
+		<Car id="222">
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="134" />
+			<WantsFuel numOfLiters="350" pumpNum="1"/>
+		</Car>
+		<Car id="333">
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="134" />
+			<WantsFuel numOfLiters="350" pumpNum="2"/>
+		</Car>
+		<Car id="444">
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="134" />
+			<WantsFuel numOfLiters="350" pumpNum="2"/>
+		</Car>
+		<Car id="555">
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="134" />
+			<WantsFuel numOfLiters="350" pumpNum="3"/>
+		</Car>
+		<Car id="666">
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="10" />
+			
+		</Car>
+		
+	</Cars>
+</GasStation>

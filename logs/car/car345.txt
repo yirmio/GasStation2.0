@@ -1,0 +1,7 @@
+[17/09/2013 20:26:39] [INFO]	car(id: 345) is entering the GasStation
+[17/09/2013 20:26:39] [INFO]	Car(id: 345) is entering the coffee house
+[17/09/2013 20:26:39] [INFO]	car(id: 345) is looking around the coffee house
+[17/09/2013 20:26:39] [INFO]	Car(id: 345) is in line to pay
+[17/09/2013 20:26:40] [INFO]	Car(id: 345) is paying for the merchandise
+[17/09/2013 20:26:40] [INFO]	Car(id: 345) is leaving the coffee house
+[17/09/2013 20:26:40] [INFO]	Car(id: 345) is leaving the GasStation

@@ -1,0 +1,7 @@
+[16/09/2013 22:41:44] [INFO]	New Pump created and ready with id: 6
+[16/09/2013 22:41:44] [INFO]	Pump(id: 6) is waiting for customers
+[16/09/2013 22:41:45] [INFO]	Car(id:666) is queued for pump 6
+[16/09/2013 22:41:45] [INFO]	Pump(id:6) is notifying car(id: 666)
+[16/09/2013 22:41:45] [INFO]	Pump(id:6) reserved 35.0 fuel for queued car
+[16/09/2013 22:41:48] [INFO]	Pump(id: 6) is waiting for customers
+[16/09/2013 22:42:19] [INFO]	Pump: 6 will be closed after queue will clear

@@ -1,0 +1,2 @@
+[16/09/2013 22:46:02] [INFO]	car(id: 4441) is entering the GasStation
+[16/09/2013 22:46:02] [INFO]	Car(id: 4441) wants to fuel up.
