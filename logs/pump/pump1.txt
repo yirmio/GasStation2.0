@@ -1,5 +1,6 @@
-[18/09/2013 00:13:12] [INFO]	New Pump created and ready with id: 1
-[18/09/2013 00:13:12] [INFO]	Pump(id: 1) is waiting for customers
-[18/09/2013 00:13:12] [INFO]	Car(id:222) is queued for pump 1
-[18/09/2013 00:13:12] [INFO]	Pump(id:1) is notifying car(id: 222)
-[18/09/2013 00:13:12] [INFO]	Pump(id:1) reserved 150.0 fuel for queued car
+[10/10/2013 00:56:58] [INFO]	New Pump created and ready with id: 1
+[10/10/2013 00:56:58] [INFO]	Pump(id: 1) is waiting for customers
+[10/10/2013 00:56:59] [INFO]	Car(id:222) is queued for pump 1
+[10/10/2013 00:56:59] [INFO]	Pump(id:1) is notifying car(id: 222)
+[10/10/2013 00:56:59] [INFO]	Pump(id:1) reserved 150.0 fuel for queued car
+[10/10/2013 00:57:15] [INFO]	Pump(id: 1) is waiting for customers

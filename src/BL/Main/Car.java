@@ -172,7 +172,7 @@ coffeehouse.fireRemoveCarFromAllPlacesFromBLEvent(this);
 					+ ") is fueling at pump " + pump.getPumpId(), this);
 			Thread.sleep(fuelTime); // go to sleep ! (fueling...)
 			pump.fireRemoveCarFromRefuelingUIEvent(pump.getPumpId());// GUI
-			pump.fireUpdateTotalPumpsMoneyFromBLEvent(gasNeeded);
+			pump.fireUpdateTotalPumpsMoneyFromBLEvent(this,gasNeeded);
 		
 			theLogger
 					.log(Level.INFO, "Car(id: " + this.carId

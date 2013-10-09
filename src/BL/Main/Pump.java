@@ -214,9 +214,9 @@ public class Pump extends Thread {
 		}
 	}
 	
-	public void fireUpdateTotalPumpsMoneyFromBLEvent(float totalMoneyPumps) {
+	public void fireUpdateTotalPumpsMoneyFromBLEvent(Car car,float totalMoneyPumps) {
 		for (PumpBLEventListener i : listenersPump) {
-			i.updateTotalMoneyPumpsFromBLEvent(totalMoneyPumps);
+			i.updateTotalMoneyPumpsFromBLEvent(car,totalMoneyPumps);
 		}
 		
 	}

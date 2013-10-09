@@ -4,23 +4,23 @@
 	<Cars>
 		<Car id="111">
 			<WantsCoffee locationInCoffeeHouse="around" amountToPay="34" />
-			<WantsFuel numOfLiters="350" pumpNum="3"/>
+			<WantsFuel numOfLiters="23" pumpNum="3"/>
 		</Car>
 		<Car id="222">
-			<WantsCoffee locationInCoffeeHouse="around" amountToPay="134" />
-			<WantsFuel numOfLiters="350" pumpNum="1"/>
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="13" />
+			<WantsFuel numOfLiters="15" pumpNum="1"/>
 		</Car>
 		<Car id="333">
-			<WantsCoffee locationInCoffeeHouse="around" amountToPay="134" />
-			<WantsFuel numOfLiters="350" pumpNum="2"/>
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="1" />
+			<WantsFuel numOfLiters="96" pumpNum="2"/>
 		</Car>
 		<Car id="444">
-			<WantsCoffee locationInCoffeeHouse="around" amountToPay="134" />
-			<WantsFuel numOfLiters="350" pumpNum="2"/>
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="14" />
+			<WantsFuel numOfLiters="3" pumpNum="2"/>
 		</Car>
 		<Car id="555">
-			<WantsCoffee locationInCoffeeHouse="around" amountToPay="134" />
-			<WantsFuel numOfLiters="350" pumpNum="3"/>
+			<WantsCoffee locationInCoffeeHouse="around" amountToPay="4" />
+			<WantsFuel numOfLiters="12" pumpNum="3"/>
 		</Car>
 		<Car id="666">
 			<WantsCoffee locationInCoffeeHouse="around" amountToPay="10" />

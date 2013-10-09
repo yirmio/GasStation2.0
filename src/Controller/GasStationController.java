@@ -195,7 +195,7 @@ public class GasStationController implements FuelPoolUIEventListener,
 		gasStationUI.getCoffeeHousePanel().updateTotalMoney(moneyToSet);
 	}
 
-	public void updateTotalMoneyPumpsFromBLEvent(float moneyToSet) {
+	public void updateTotalMoneyPumpsFromBLEvent(Car car,float moneyToSet) {
 		gasStationUI.getFuelPumpsListPanel().updateTotalMoney(
 				moneyToSet * gasStationBL.getPricePerLiter());
 	}
@@ -206,17 +206,19 @@ public class GasStationController implements FuelPoolUIEventListener,
 		try {
 			Car newcar = new Car(tmpID);
 			Pump pump = null;
-			Car.coffeeHousePositionEnum coffeHouseLocation;
+			Car.coffeeHousePositionEnum coffeHouseLocation = null;
 			float coffeHouseToPay = 0.0f;
 			float gasNeeded = 0.0f;
 			// Wants coffee
 			if (amountToPay > 0) {
 				coffeHouseLocation = Car.coffeeHousePositionEnum.around;
 				coffeHouseToPay = amountToPay;
-				newcar.setWantsCoffee(this.gasStationBL.getCoffeeHouse(),
+                                newcar.setWantsCoffee(this.gasStationBL.getCoffeeHouse(),
 						coffeHouseToPay, coffeHouseLocation);
-
+				
 			}
+                        newcar.setCoffehouse(this.gasStationBL.getCoffeeHouse());
+
 			// Wants refuel
 			if (litters > 0) {
 				gasNeeded = litters;

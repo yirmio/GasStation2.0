@@ -11,5 +11,5 @@ public interface PumpBLEventListener {
 
 	public void removeCarFromRefuellingFromBLEvent(int pumpNo);
 
-	public void updateTotalMoneyPumpsFromBLEvent(float moneyToSet);
+	public void updateTotalMoneyPumpsFromBLEvent(Car car,float moneyToSet);
 }

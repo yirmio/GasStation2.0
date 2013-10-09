@@ -24,6 +24,8 @@ import BL.Exceptions.*;
 import BL.Init.*;
 import BL.Logs.LogFormatter;
 import Controller.GasStationController;
+import Controller.JPADBController;
+import DAL.IDBConnector;
 
 public class Program {
 	
@@ -41,7 +43,6 @@ public class Program {
 			MainFrame stationView = new MainFrame();
 			GasStation station = InitFromXmlFile.readFile("GasStationData.xml",stationView);
 			stationView.setBLGasSTation(station);
-			
 //			GasStationController stationController =  new GasStationController(station, stationView.getMainPanel()); 
 			//Init bl to ui
 //			for (Pump pump : station.getPumps()) {

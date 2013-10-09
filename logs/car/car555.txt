@@ -1,4 +1,9 @@
-[18/09/2013 00:13:13] [INFO]	car(id: 555) is entering the GasStation
-[18/09/2013 00:13:13] [INFO]	Car(id: 555) wants to fuel up.
-[18/09/2013 00:13:13] [INFO]	Car(id: 555) is entering the coffee house
-[18/09/2013 00:13:13] [INFO]	car(id: 555) is looking around the coffee house
+[10/10/2013 00:56:59] [INFO]	car(id: 555) is entering the GasStation
+[10/10/2013 00:56:59] [INFO]	Car(id: 555) wants to fuel up.
+[10/10/2013 00:56:59] [INFO]	Car(id: 555) is entering the coffee house
+[10/10/2013 00:56:59] [INFO]	car(id: 555) is looking around the coffee house
+[10/10/2013 00:57:12] [INFO]	Car(id: 555) is in line to pay
+[10/10/2013 00:57:34] [INFO]	Car(id: 555) is intterupted and leaving the coffee house
+[10/10/2013 00:57:34] [INFO]	Car(id: 555) is fueling at pump 3
+[10/10/2013 00:58:09] [INFO]	Car(id: 555) is done fueling (350.0/350.0)
+[10/10/2013 00:58:09] [INFO]	Car(id: 555) is leaving the GasStation

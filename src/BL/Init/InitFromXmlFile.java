@@ -4,6 +4,8 @@ import gui.MainFrame;
 import BL.Exceptions.initExceptions;
 import BL.Main.*;
 import Controller.GasStationController;
+import Controller.JPADBController;
+import DAL.IDBConnector;
 
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
@@ -94,6 +96,8 @@ public class InitFromXmlFile {
 		// and ready to get the cars into them
 		GasStationController stationController = new GasStationController(
 				newGasStation, stationView.getGasStationPanel());
+                			                 IDBConnector dbController = new JPADBController(newGasStation);
+
 		// Add cashiers to UI
 		for (Cashier cash : newCoffeeHouse.getCashiers()) {
 			newCoffeeHouse.fireAddCashierToUI(cash);

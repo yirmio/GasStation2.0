@@ -1,0 +1,5 @@
+[10/10/2013 01:32:05] [INFO]	car(id: 852) is entering the GasStation
+[10/10/2013 01:32:05] [INFO]	Car(id: 852) wants to fuel up.
+[10/10/2013 01:32:05] [INFO]	Car(id: 852) is fueling at pump 3
+[10/10/2013 01:32:10] [INFO]	Car(id: 852) is done fueling (56.0/56.0)
+[10/10/2013 01:32:10] [INFO]	Car(id: 852) is leaving the GasStation
